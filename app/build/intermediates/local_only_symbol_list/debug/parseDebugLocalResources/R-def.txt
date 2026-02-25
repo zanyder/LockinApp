@@ -1,0 +1,11 @@
+R_DEF: Internal format may change without notice
+local
+color md_theme_background
+color md_theme_onBackground
+color md_theme_onPrimary
+color md_theme_primary
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.LockinFocusBlocker
+style Theme.LockinFocusBlocker.Blocker

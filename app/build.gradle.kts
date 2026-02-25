@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("org.jetbrains.kotlin.plugin.compose") version "2.0.0"
     id("com.google.devtools.ksp") version "2.0.0-1.0.22"
 }
 
@@ -70,6 +71,9 @@ dependencies {
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3:1.3.0")
+
+    // Material Components (XML themes)
+    implementation("com.google.android.material:material:1.12.0")
 
     // Navigation
     implementation("androidx.navigation:navigation-compose:2.8.0")
